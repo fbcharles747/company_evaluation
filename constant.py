@@ -1,4 +1,3 @@
-# this block will be pasted at constant.py at the end of the development
 from enum import Enum
 class INCOMESTATEMENT(Enum):
     CALENDAR_YEAR='calendarYear'
@@ -26,3 +25,9 @@ class BALANCEGROWTH(Enum):
 class CASHFLOWSTATEMENT(Enum):
     CALENDAR_YEAR='calendarYear'
     CAPEX='capitalExpenditure'
+    COMMONSTOCK_REPURCHASE='commonStockRepurchased'
+    DIVIDEND_PAID='dividendsPaid'
+
+class PERIOD(Enum):
+    QUARTER='quarter'
+    ANNUAL='annual'
