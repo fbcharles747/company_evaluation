@@ -13,7 +13,7 @@ $reinvestment \quad rate = \dfrac {(net \quad Capital \quad expenditure + change
 
 Sometimes, the sum of net capital expenditure and change in working capital is negative number, which yield negative reinvestment rate. I have not yet figure out how to handle that case accurately. At this point, the best thing I can do is wrap the logic of reinvestment calculation into a function `reinvestment_rate` in `helper.py`, so it is easier to change in the future.
 
-> Note that intrinsic value calculation of table two will require FMP standard subscription
+> Note that intrinsic value calculation of table 2 will require FMP standard subscription
 
 ## setting up enviornment
 
