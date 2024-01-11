@@ -20,6 +20,7 @@ Sometimes, the sum of net capital expenditure and change in working capital is n
 sudo apt-get update
 sudo apt-get install wget
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh ./Miniconda3-latest-Linux-x86_64.sh
 
 # create seperate environment
 conda create -y -n fmp_valuation python=3.12
