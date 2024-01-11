@@ -60,3 +60,7 @@ def discount_terminal_value(fcff:float,
     return precent_terminal+cf_sum
     
 
+
+def reinvestment_rate(operating_income_after_tax:float,net_capex:float,change_in_working_cap:float)->float:
+   
+    return (net_capex+change_in_working_cap)/operating_income_after_tax
