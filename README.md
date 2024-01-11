@@ -36,4 +36,4 @@ conda install Jinja2
 
 ```
 
-> Note: remember to include `.env` file, and specify `apikey=your_fmp_apikey`.
+> Note: remember to create `.env` file in the root directory, and specify `apikey=your_fmp_apikey`.
