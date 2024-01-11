@@ -1,6 +1,6 @@
 ## Introduction
 
-This project use pandas library to calculate some ratios that value investor is looking at. With the financial data coming from FMP (financial modeling prep), the jupyter notebook guide investor to identify company with competitive advantages. The bias list in `longterm_analysis.ipynb` come from the book <b><i>Warren Buffett and the Interpretation of Financial Statements: The Search for the Company with a Durable Competitive Advantage
+This project use pandas library to calculate some ratios that value investor is looking at. With the financial data coming from FMP (financial modeling prep), the jupyter notebook program help investor to identify company with competitive advantages. The bias list in `longterm_analysis.ipynb` come from the book <b><i>Warren Buffett and the Interpretation of Financial Statements: The Search for the Company with a Durable Competitive Advantage
 by Mary Buffett</i></b>.
 
 ## Major issue
