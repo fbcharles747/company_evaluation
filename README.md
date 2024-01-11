@@ -9,7 +9,7 @@ I also try to integrate the discounted cashflow formula mentioned in the book <b
 by Aswath Damodaran</i></b>. There is some issue relating to calculating the reinvestment rate.
 
 As present in the book:
-$reinvestment \quad rate = \dfrac {(net \quad Capital \quad expenditure + change \quad in \quad working \quad capital)} {operating \quad after \quad tax}$
+$reinvestment \quad rate = \dfrac {(net \quad Capital \quad expenditure + change \quad in \quad working \quad capital)} {operating \quad income \quad after \quad tax}$
 
 Sometimes, the sum of net capital expenditure and change in working capital is negative number, which yield negative reinvestment rate. I have not yet figure out how to handle that case accurately. At this point, the best thing I can do is wrap the logic of reinvestment calculation into a function `reinvestment_rate` in `helper.py`, so it is easier to change in the future.
 
