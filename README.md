@@ -3,7 +3,9 @@
 This project use pandas library to calculate some ratios that value investor is looking at. With the financial data coming from FMP (financial modeling prep), the jupyter notebook program help investor to identify company with competitive advantages. The bias list in `longterm_analysis.ipynb` come from the book <b><i>Warren Buffett and the Interpretation of Financial Statements: The Search for the Company with a Durable Competitive Advantage
 by Mary Buffett</i></b>.
 
-## Major issue
+## Major issue for table 2
+
+> ignore table 2 for now. The FMP site already have table to calculate discounted cashflow, but I will leave this table for future usecase
 
 I also try to integrate the discounted cashflow formula mentioned in the book <b><i>The Little Book of Valuation: How to Value a Company, Pick a Stock and Profit (Little Books. Big Profits)
 by Aswath Damodaran</i></b>. There is some issue relating to calculating the reinvestment rate.
