@@ -30,6 +30,7 @@ class BALANCEGROWTH(Enum):
 class INCOMEGROWTH(Enum):
     CALENDAR_YEAR='calendarYear'
     EBITDA_GROWTH='growthEBITDA'
+    NET_INCOME_GROWTH='growthNetIncome'
 
 
 class CASHFLOWSTATEMENT(Enum):
