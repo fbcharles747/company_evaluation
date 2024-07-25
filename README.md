@@ -5,7 +5,7 @@ by Mary Buffett</i></b>.
 
 ## Major issue for table 2
 
-> ignore table 2 for now. The FMP site already have table to calculate discounted cashflow, but I will leave this table for future usecase
+>  The FMP site already have table to calculate discounted cashflow, but I will leave this table for future usecase. The table 2 is currently in DCF_features branch
 
 I also try to integrate the discounted cashflow formula mentioned in the book <b><i>The Little Book of Valuation: How to Value a Company, Pick a Stock and Profit (Little Books. Big Profits)
 by Aswath Damodaran</i></b>. There is some issue relating to calculating the reinvestment rate.
