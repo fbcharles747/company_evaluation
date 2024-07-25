@@ -18,7 +18,7 @@ Sometimes, the sum of net capital expenditure and change in working capital is n
 > Note that intrinsic value calculation of table 2 will require FMP standard subscription
 
 ## setting up enviornment
-
+Note that this set-up took place in WSL.
 ```shell
 # set up the conda environment
 sudo apt-get update
