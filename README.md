@@ -1,24 +1,12 @@
 ## Introduction
 
-This project use pandas library to calculate some ratios that value investor is looking at. With the financial data coming from FMP (financial modeling prep), the jupyter notebook program help investor to identify company with competitive advantages. The bias list in `longterm_analysis.ipynb` come from the book <b><i>Warren Buffett and the Interpretation of Financial Statements: The Search for the Company with a Durable Competitive Advantage
-by Mary Buffett</i></b>.
+This project use pandas library to display the relevant numbers and ratio from financial statement. To enable the search by stock symbol capability, Finanicial Modelling prep are used as the source of data, so the FMP API key is required. 
 
-## Major issue for table 2
 
->  The FMP site already have table to calculate discounted cashflow, but I will leave this table for future usecase. The table 2 is currently in DCF_features branch
-
-I also try to integrate the discounted cashflow formula mentioned in the book <b><i>The Little Book of Valuation: How to Value a Company, Pick a Stock and Profit (Little Books. Big Profits)
-by Aswath Damodaran</i></b>. There is some issue relating to calculating the reinvestment rate.
-
-As presented in the book:
-$reinvestment \quad rate = \dfrac {(net \quad Capital \quad expenditure + change \quad in \quad working \quad capital)} {operating \quad income \quad after \quad tax}$
-
-Sometimes, the sum of net capital expenditure and change in working capital is negative number, which yield negative reinvestment rate. I have not yet figure out how to handle this case accurately. At this point, the best thing I can do is wrap the logic of reinvestment calculation into a function `reinvestment_rate` in `helper.py`, so it is easier to change in the future.
-
-> Note that intrinsic value calculation of table 2 will require FMP standard subscription
 
 ## setting up enviornment
 Note that this set-up took place in WSL.
+
 ```shell
 # set up the conda environment
 sudo apt-get update
