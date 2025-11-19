@@ -11,6 +11,7 @@ cycler==0.12.1
 debugpy==1.8.14
 decorator==5.2.1
 executing==2.2.0
+fmp-stable-api==0.0.1
 fmpsdk==20250102.0
 fonttools==4.58.4
 h11==0.16.0
@@ -40,12 +41,14 @@ pure_eval==0.2.3
 pycparser==2.22
 Pygments==2.19.1
 pyparsing==3.2.3
+PyPDF2==3.0.1
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
 pywin32==310
 pyzmq==27.0.0
+ratelimit==2.2.1
 requests==2.32.4
 seaborn==0.13.2
 selenium==4.34.2
@@ -63,4 +66,5 @@ tzdata==2025.2
 urllib3==2.5.0
 wcwidth==0.2.13
 websocket-client==1.8.0
+websockets==15.0.1
 wsproto==1.2.0
